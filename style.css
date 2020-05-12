@@ -1,0 +1,113 @@
+/*general webpage settings including background and font*/
+body {
+  text-align: center;
+  line-height: 1.5rem;
+  font-family: 'Jost', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: #472d30;
+  color: #c9cba3;
+  margin: 0 auto;
+}
+/*navigation bar style and settings*/
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem;;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  flex-basis: 10%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/*link settings*/
+a:link{
+  text-decoration:none;
+  font-weight: bold;
+  color: #e26d5c;
+}
+
+a:hover{
+  color: #ffe1a8;
+}
+
+a:active, a:visited{
+  color: #c9cba3;
+}
+
+h1{
+  color: #e26d5c;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.margin {
+  margin: auto;
+  padding: 10%;
+}
+/*portrait settings*/
+img {
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
+  border: solid #ffe1a8 5px;
+  float: left;
+}
+/*header settings*/
+header{
+  background-color: #723d46;
+  padding: 2%;
+  margin: 0 auto;
+}
+/*bio block settings*/
+.bio{
+  border-top: #e26d5c solid 3px;
+  padding: 5%;
+  margin: 0 auto;
+  text-align: right;
+  color: antiquewhite;
+}
+
+h2, h3{
+  color: #c9cba3;
+}
+/*resume infomation style and settings*/
+#resume{
+  text-align: left;
+  list-style-type: none; 
+  display: inline;
+  padding: 5%;
+}
+/*ordered list style*/
+ol {
+  font-size: .90rem;
+  color: #ffe1a8;
+}
+/*unordered list style*/
+ul{
+  list-style-type: none; 
+  padding-right: 0;
+  display: inline;
+  padding-top: 0;
+  margin: 0;
+}
+/*contact information style and settings*/
+#contact{
+  margin-left: 60%;
+  padding: 1rem;
+  background-color: #723d46;
+  border: 4px #e26d5c solid;
+  font-weight: bold;
+  line-height: 2rem;
+  text-align: center;
+}
+/*social media icon settings*/
+#icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px;
+  display: block;
+  padding: .5rem;
+}
