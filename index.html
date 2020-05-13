@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -14,20 +14,22 @@
 		<!-- navbar -->
 		<nav>
 			<ul class="navbar">
-				<li><a href="index.html">Home</li></a>
-				<li><a href="#bio">About</li></a>
-				<li><a href="#contact">Contact</li></a>
-				<li><a href="#resume">Resume</li></a>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#bio">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#projectsection">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#resume">Resume</a></li>
 			</ul>
 		</nav>
 
 		<div class=container>
 			<!--header and photo-->
 			<header>
-				<img src = "portrait.jpg" alt= "Phoebe Picture" class="floatleft">
+				<img id ="portrait" src = "portrait.jpg" alt= "Phoebe Picture" class="floatleft">
       
       <h1>Phoebe Shabram</h1>
-      <p>Software Engineer student at ThinkFul, INC.</p> 
+      <p>Software Engineer student at Thinkful, INC.</p> 
     </header> 
    </div>
 <!--bio-->
@@ -36,8 +38,28 @@
       <p> Hi, my name is Phoebe, and thank you for viewing my portfolio! I was born and raised in Monterey, California, but currently reside in Vancouver, Washington, with my husband and two children. While working on my BFA, I got married and had two children which ultimately required me to put my career aside for a few years. That is until I learned about Thinkful. My interest in development came about a year ago, after learning about it from my husband, who is an IT Specialist for the Oregon National Guard. <p>My work in graphic design felt like it was hitting a lot of dead ends, so after some deliberation I decided to enroll in the Thinkful Software Engineering Immersion Program.<p>I've always had an interest in tech, as early as 10 years old working on my MySpace page layout and design. I have been equally passionate about problem solving and puzzles, so with having a solid skillset in design, I feel confident in the programmer I am becoming. As the tech industry continues to explore unknown possibilities and advances in human life, I am excited to be catching this fast pace ride into the world of software engineering. I know my unique perspective combing the arts, humanities, and technology will be the foundation for many innovative and creative projects to be born. 
       </p> 
     </p>
+  <div class="container" id="projectsection">
     <h1>Projects</h1>
-   <p>As you can see, I don't yet have any projects to display on this page, but I am presently working on changing this. Stay tuned! </p>
+      <p>As you can see, I don't yet have many projects to display on this page, but I am presently working on changing this. Stay tuned! </p>
+    
+    <div class="row">
+      <div class="column">
+        <h2>Coffee Lover Project</h2>
+          <p>Though my skillset is still small, I was able to create this very basic webpage using HTML, CSS, and JQuery. This website features a responsive navigation bar, a log in page, drop down menus and a photo gallery. <p><a href="https://github.com/phoebekeshabram/bootstrap-lvl-2.git" target="_blank">Github Link</a></p>
+      
+          <img class="img-thumbnail img-fluid" id="projectphoto"src="login.png">
+          <img class="img-thumbnail img-fluid" id="projectphoto" src="photogrid.png" alt="">
+          <img class="img-thumbnail img-fluid" id="projectphoto" src="homepage.png" alt="">
+          </div>
+      </div>
+    </div>
+  <div id="services">
+    <h2>Services</h2>
+      <p>I am presently a student at Thinkful, building my skills and knowledge of software engineering. I am pleased to be able to offer my services as a programmer in the very new future. These services may include, but are not limited to:
+        <ul id="serviceslist">
+          <li>Collaborate with a team of front-end developers to build webapps and webpages using HTML, CSS, Javascript, and React
+          <li>Develop and maintain secure web services</li>
+          <li>Build reusable code and libraries for future use</li>
 <!-- resume section-->
   <div class="container" id="resume">
     <h2>Resume</h2>
@@ -59,28 +81,14 @@
   <!--this is a container for the contact information block at the bottom-->
   <div class="container" id="contact">
    <p>
-     For information reguarding business inquiries, submit your email address below, or email me at:
-     <p>pkshabram@gmail.com</p>
-     <!--form for email adress-->
-     <form>
-      <div class="form-group">
-        <label for="emailaddress">Email address </label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      </div>
-      <!--text box form-->
-        <div class="form-group">
-          <label for="inquiry"> Add any comments or questions here.</label>
-          <textarea class="form-control" id="inquiry" rows="3"></textarea>
-        </div>
-        <!--submit button-->
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
+     For information regarding business inquiries, submit your email address below, or email me at:
+     <a href = "mailto: pkshabram@gmail.com">pkshabram@gmail.com</a>
         <!--social media links-->
         <p>To connect with me in other ways, you can find me here</p>
-          <a href="https://www.linkedin.com/in/phoebe-shabram-0400b4184/">
+          <a href="https://www.linkedin.com/in/phoebe-shabram-0400b4184/" target="_blank">
           <img src="linkedIn.jpg" alt="linkedin" id="icon">
           </a>
-        <a href="https://github.com/phoebekeshabram">
+          <a href="https://github.com/phoebekeshabram" target="_blank">
           <img src="github-logo.png" alt="github" id="icon">
           </a>
      </div>

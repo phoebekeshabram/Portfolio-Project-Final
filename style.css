@@ -47,7 +47,7 @@ h1{
   padding: 10%;
 }
 /*portrait settings*/
-img {
+#portrait {
   border-radius: 50%;
   height: 450px;
   width: 450px;
@@ -72,17 +72,31 @@ header{
 h2, h3{
   color: #c9cba3;
 }
+/*project section*/
+#projectsection{
+  text-align: center;
+}
+#projectphoto{
+padding: .25rem;
+border: solid 10px #723d46;
+height: 300px;
+width: 450px;
+}
+#serviceslist{
+  list-style-type: bullet;
+}
 /*resume infomation style and settings*/
 #resume{
   text-align: left;
   list-style-type: none; 
   display: inline;
-  padding: 5%;
 }
 /*ordered list style*/
 ol {
   font-size: .90rem;
   color: #ffe1a8;
+  text-align: left;
+
 }
 /*unordered list style*/
 ul{
@@ -101,13 +115,15 @@ ul{
   font-weight: bold;
   line-height: 2rem;
   text-align: center;
+  padding-bottom: ;
 }
 /*social media icon settings*/
 #icon{
+  
   height: 50px;
   width: 50px;
   border-radius: 50%;
   border: 3px;
-  display: block;
+  
   padding: .5rem;
 }
