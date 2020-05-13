@@ -119,11 +119,9 @@ ul{
 }
 /*social media icon settings*/
 #icon{
-  
   height: 50px;
   width: 50px;
   border-radius: 50%;
   border: 3px;
-  
   padding: .5rem;
 }
