@@ -76,7 +76,7 @@ h2, h3{
 #projectsection{
   text-align: center;
 }
-#projectphoto{
+.projectphoto{
 padding: .25rem;
 border: solid 10px #723d46;
 height: 300px;
@@ -92,7 +92,7 @@ width: 450px;
   display: inline;
 }
 /*ordered list style*/
-ol {
+ol{
   font-size: .90rem;
   color: #ffe1a8;
   text-align: left;
@@ -115,10 +115,9 @@ ul{
   font-weight: bold;
   line-height: 2rem;
   text-align: center;
-  padding-bottom: ;
 }
 /*social media icon settings*/
-#icon{
+.icon{
   height: 50px;
   width: 50px;
   border-radius: 50%;
