@@ -6,8 +6,7 @@ body {
   font-weight: bold;
   font-size: 1.2em;
   background-color: #472d30;
-  color: #c9cba3;
-  margin: 0 auto;
+  color: #c9cba3;;
 }
 /*navigation bar style and settings*/
 .navbar {
@@ -57,14 +56,13 @@ h1{
 /*header settings*/
 header{
   background-color: #723d46;
+  border-bottom: #e26d5c solid 3px;
   padding: 2%;
   margin: 0 auto;
 }
 /*bio block settings*/
 .bio{
-  border-top: #e26d5c solid 3px;
-  padding: 5%;
-  margin: 0 auto;
+  margin-right: 1rem;
   text-align: right;
   color: antiquewhite;
 }
@@ -72,6 +70,7 @@ header{
 h2, h3{
   color: #c9cba3;
 }
+
 /*project section*/
 #projectsection{
   text-align: center;
@@ -82,14 +81,21 @@ border: solid 10px #723d46;
 height: 300px;
 width: 450px;
 }
-#serviceslist{
+/*services section*/
+
+#services{
+margin: 1rem;
+text-align: left;
+}
+
+.serviceslist{
   list-style-type: bullet;
 }
 /*resume infomation style and settings*/
 #resume{
-  text-align: left;
   list-style-type: none; 
-  display: inline;
+  text-align: left;
+  margin: 1rem;
 }
 /*ordered list style*/
 ol{
@@ -109,6 +115,7 @@ ul{
 /*contact information style and settings*/
 #contact{
   margin-left: 60%;
+  margin-right: 1rem;
   padding: 1rem;
   background-color: #723d46;
   border: 4px #e26d5c solid;
